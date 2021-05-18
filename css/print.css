@@ -1,0 +1,38 @@
+/* CSS Document */
+/* print.css */
+
+@page {
+	margin: 0.5cm;
+}
+
+body {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 11pt;
+	background-color: #fff;
+}
+
+#mod_filtres, header, footer, td>span {
+	display:none;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+td, th {
+	border: 0.75pt solid #5d5d5d;
+	text-align: left;
+	padding: 1px 3px;
+}
+
+tr:nth-child(even) {
+	box-shadow: inset 0 0 0 1000px #dddddd;
+}
+
+.weekend {
+	box-shadow: inset 0 0 0 1000px #808080 !important;
+}
+
+.total, thead, caption {
+	font-weight: bold;
+}
