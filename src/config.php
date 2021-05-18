@@ -4,11 +4,11 @@
 /* Fichier de configuration.
 /**************************************************************/
 
-define('SQL_DB', 'localhost');
-define('SQL_NAME', 'FeuilleTemps');
-define('SQL_LOGIN', 'root');
-define('SQL_PASS', 'adheayz');
-define('SQL_PORT', '3307');
+define('SQL_DB', 'xxx');
+define('SQL_NAME', 'xxx');
+define('SQL_LOGIN', 'xxx');
+define('SQL_PASS', 'xxx');
+define('SQL_PORT', 'xxx');
 
 setlocale (LC_TIME, 'fr_FR','fra');
 date_default_timezone_set("Europe/Paris");
